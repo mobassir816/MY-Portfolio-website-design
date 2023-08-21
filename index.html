@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>MY PORTFOLIO WEBSITE</title>
+  <script src="https://kit.fontawesome.com/48ea41e2ee.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/logo1.png" class="logo" />
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#mygoals">Goals</a></li>
+          <li><a href="#portfolio">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Web<span> Dev</span>eloper.</p>
+        <h1>Hi, I'm <span>Mobassir</span> Hussain</h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- ------------------ABOUT---------------- -->
+
+  <div class="about" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="./images/user1.jpg" />
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>
+            I'm a Front-end Developer exploring Web Development and aspiring to become a Full-stack Developer. I build
+            responsive and user-friendly websites.
+          </p>
+
+          <div class="tab-titles">
+            <p class="tab-links active link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Educations</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li>1.<span>HTML</span></li>
+              <li>2.<span>CSS</span></li>
+              <li>3.<span>JavaScript</span></li>
+              <li>4.<span>Git & GitHub</span></li>
+              <li>5.<span>React JS</span>(still learning)</li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span> No Experiences Yet! </span></li>
+              <li><span> I'm still Learning.</span></li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="education">
+            <ul>
+              <li>
+                <span>2021 - 2024</span><br />Bachelor in Computer
+                Application at Maulana Mazharul Haque Arabic and Persian
+                University.
+              </li>
+              <li>
+                <span>2019 - 2021</span><br />12th at Sadhana Devi Vidyapith.
+              </li>
+              <li>
+                <span>2018 - 2019</span><br />10th at Sadhana Devi Vidyapith.
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- --------------------------------services--------------------------------- -->
+
+  <div id="mygoals">
+    <div class="container">
+      <h1 id="sub-title" class="sub-title">My Goals</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Developer</h2>
+          <p>
+            A web developer is a programmer who develops World Wide Web applications using a client-server model. The
+            applications typically use HTML, CSS, and JavaScript in the client, and any general-purpose programming
+            language in the server. HTTP is used for communications between client and server. A web developer may
+            specialize in client-side applications (Front-end web development), server-side applications (back-end
+            development), or both (full-stack development).
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+
+        <div>
+          <i class="fa-sharp fa-solid fa-crop"></i>
+          <h2>UI/UX Designer</h2>
+          <p>
+            A UI/UX designer creates user interfaces (UI) for digital products, focusing on aesthetics and user
+            experience (UX). They blend visual design with user-centered design principles, enhancing functionality,
+            accessibility, and engagement. By crafting intuitive layouts and interactive elements, they optimize how
+            users interact with apps and websites, ensuring a seamless and satisfying journey.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+
+        <div>
+          <i class="fa-brands fa-app-store-ios"></i>
+          <h2>App Developer</h2>
+          <p>
+            An app developer designs, builds, and maintains software applications for mobile devices or desktop
+            computers. They are proficient in programming languages and frameworks, translating ideas into functional,
+            user-friendly apps. Through coding, testing, and problem-solving, they create innovative solutions that
+            cater to specific user needs while staying updated with technological trends to deliver high-quality and
+            responsive applications.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+
+    </div>
+  </div>
+
+  <!-- ----------------------portfolio---------------- -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 id="sub-title" class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/work-1.png" />
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
+              recusandae error aspernatur, pariatur nobis dolore?
+            </p>
+            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-2.png" />
+          <div class="layer">
+            <h3>Music App</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
+              recusandae error aspernatur, pariatur nobis dolore?
+            </p>
+            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-3.png" />
+          <div class="layer">
+            <h3>Online Shopping App</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
+              recusandae error aspernatur, pariatur nobis dolore?
+            </p>
+            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+
+  <!-- -------------------contact------------------- -->
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 id="sub-title" class="sub-title">Contact Me</h1>
+          <p>
+            <i  class="fa-solid fa-paper-plane"></i>mobassir123hussian456@gmail.com
+          </p>
+          <p><i class="fa-solid fa-phone"></i>+91 8084027642</p>
+          <p> <span>Contact me on a single click: </span> </p>
+          <div id="social-icons" class="social-icons">
+            <a href="https://github.com/mobassir816"><i class="fa-brands fa-github"></i></a>
+            <a href="https://twitter.com/mobassir816"><i class="fa-brands fa-twitter-square"></i></a>
+            <a href="https://www.instagram.com/ehtesham816/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/mobassir-hussain-89766b217/"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------------footer----------------- -->
+
+    <div class="copyright">
+      <p>Copyright &copy; Mobassir.<i class="fas fa-heart"></i></p>
+    </div>
+  </div>
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+      sidemenu.style.right = "0";
+    }
+    function closemenu() {
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+  <script>
+    const scriptURL =
+      "https://script.google.com/macros/s/AKfycbxAGDkv8HrTe7ETgnMholbEHJBxv0udhn97bD366YjIZvgpURT4aIMj7cx6yNtMfh76/exec";
+    const form = document.forms["submit-to-google-sheet"];
+    const msg = document.getElementById("msg");
+
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      fetch(scriptURL, { method: "POST", body: new FormData(form) })
+        .then((response) => {
+          msg.innerHTML = "Message sent successfully";
+          setTimeout(function () {
+            msg.innerHTML = "";
+          }, 2000);
+          form.reset();
+        })
+        .catch((error) => console.error("Error!", error.message));
+    });
+  </script>
+</body>
+
+</html>
